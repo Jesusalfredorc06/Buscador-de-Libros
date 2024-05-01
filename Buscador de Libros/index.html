@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador Libros </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <h1>Buscador de Libros</h1>
+    
+    <div class="contenedor">
+
+
+
+        <form id="buscador">
+            <div class="row">
+                <div class="three columns">
+                    <label for="Autor">Autor</label>
+                    <select class="u-full-width" id="autor">
+                        <option value="">Seleccione</option>
+                        
+                        <option value="Gabriel Garcia Marquez">Gabriel Garcia Marquez</option>
+                        <option value="John Katzenbach">John Katzenbach</option>
+                        <option value="Åsa Larsson">Åsa Larsson</option>
+                        <option value="Robert Lawrence Stine">Robert Lawrence Stine</option>
+                        <option value="J. D. Barker">J. D. Barker</option>
+                        <option value="Patrick Süskind">Patrick Süskind</option>
+                        <option value="J. K. Rowling">J. K. Rowling</option>
+                        <option value="Cassandra Clare">Cassandra Clare</option>
+                        <option value="Leigh Bardugo">Leigh Bardugo</option>
+                        <option value="Jeffery Deaver">Jeffery Deaver</option>
+                    
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="edicion">Edicion</label>
+                    <select class="u-full-width" id="edicion">
+                        <option value="">Seleccione</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="libro">Libros</label>
+                    <select class="u-full-width" id="libro">
+                        <option value="">Seleccione</option>
+                        <option value="Cien Años de Soledad">Cien Años de Soledad</option>
+                        <option value="Crónica de una Muerte Anunciada">Crónica de una Muerte Anunciada</option>
+                        <option value="El psicoanalista">El psicoanalista</option>
+                        <option value="El club de los psicópatas">El club de los psicópatas</option>
+                        <option value="Aurora Boreal">Aurora Boreal</option>
+                        <option value="La Senda Oscura">La Senda Oscura</option>
+                        <option value="La Noche del Muñeco Viviente">La Noche del Muñeco Viviente</option>
+                        <option value="Stuff of Nightmares: The Monster Makers">Stuff of Nightmares: The Monster Makers</option>
+                        <option value="El Cuarto Mono">El Cuarto Mono</option>
+                        <option value="La Sexta Trampa">La Sexta Trampa</option>
+                        <option value="El Pérfume">El Pérfume</option>
+                        <option value="Sobre el Amor y la Muerte">Sobre el Amor y la Muerte</option>
+                        <option value="Harry Potter y la Piedra filosofal">Harry Potter y la Piedra filosofal</option>
+                        <option value="Animales Fantasticos y Donde Encontrarlos">Animales Fantasticos y Donde Encontrarlos</option>
+                        <option value="Cazadores de Sombras 1: Ciudad de Hueso">Cazadores de Sombras 1: Ciudad de Hueso</option>
+                        <option value="Ciudad de Ceniza">Ciudad de Ceniza</option>
+                        <option value="Sombra y Hueso">Sombra y Hueso</option>
+                        <option value="Seis de Cuervos">Seis de Cuervos</option>
+                        <option value="El Coleccionista de Huesos">El Coleccionista de Huesos</option>
+                        <option value="The Never Game">The Never Game</option>
+                        
+                        
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="ISBN">ISBN</label>
+                    <select class="u-full-width" id="ISBN">
+                        <option value="">Seleccione</option>
+                        <option value="9780060929794">9780060929794</option>
+                        <option value="9780785949855">9780785949855</option>
+                        <option value="9780345426260">9780345426260</option>
+                        <option value="9789585121430">9789585121430</option>
+                        <option value="9783442736003">9783442736003</option>
+                        <option value="9788466413176">9788466413176</option>
+                        <option value="9788440670113">9788440670113</option>
+                        <option value="9781684158928">9781684158928</option>
+                        <option value="9788423353941">9788423353941</option>
+                        <option value="9780990694977">9780990694977</option>
+                        <option value="9780307277763">9780307277763</option>
+                        <option value="9781585679508">9781585679508</option>
+                        <option value="9780545069670">9780545069670</option>
+                        <option value="9780439321600">9780439321600</option>
+                        <option value="9781416914280">9781416914280</option>
+                        <option value="9781406307634">9781406307634</option>
+                        <option value="9780805094596">9780805094596</option>
+                        <option value="9788416387588">9788416387588</option>
+                        <option value="9780340682111">9780340682111</option>
+                        <option value="9783734110719">9783734110719</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="four columns">
+                        <label for="categoria">Categoria</label>
+                        <select class="u-full-width" id="categoria">
+                            <option value="">Seleccione</option>
+                            <option value="Ficción">Ficción</option>
+                            <option value="Novela">Novela</option>
+                            <option value="Suspenso">Suspenso</option>
+                            <option value="Thriller psicológico">Thriller psicológico</option>
+                            <option value="Misterio">Misterio</option>
+                            <option value="Policiaco">Policiaco</option>
+                            <option value="Terror">Terror</option>
+                            <option value="Drama">Drama</option>
+                            <option value="Fántasia">Fántasia</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="resultado">
+            <h1>Resultados</h1>
+        </div>
+        
+        <div id="resultado"></div>
+    </div>
+
+    <a class="sitio-web">Jesús A. Rojas</a>
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
